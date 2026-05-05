@@ -1,5 +1,3 @@
-#!// popup
-
 use iced::time::{self, milliseconds};
 
 use iced::widget::{button, checkbox, space, text, toggler};
@@ -7,9 +5,7 @@ use iced::widget::{column, container};
 use iced::{Element, Fill, Subscription, Theme};
 use iced::widget::Id;
 
-use crate::popup::Popup;
-
-mod popup;
+use popup::Popup;
 
 
 pub fn main() -> iced::Result {
