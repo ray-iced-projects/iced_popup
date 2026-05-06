@@ -1,0 +1,12 @@
+[package]
+name = "popup-example"
+version = "0.1.0"
+edition = "2024"
+
+[[bin]]
+name = "popup"
+path = "main.rs"
+
+[dependencies]
+popup = { path = "../..", package = "iced_popup" }
+iced = { git = "https://github.com/iced-rs/iced", rev = "4255f61", features = ["advanced", "debug", "tokio"] }

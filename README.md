@@ -40,11 +40,11 @@ Popup::new(trigger_widget, popup_content, self.is_open)
 
 ## Dependencies
 
-- [iced](https://github.com/iced-rs/iced) (with `advanced` feature)
+iced = { git = "https://github.com/iced-rs/iced", rev = "4255f61", features = ["advanced", "debug"] }
 
-## Running
+## Running Example
 
 ```bash
-cargo run
+cargo run -p popup-example
 ```
 
